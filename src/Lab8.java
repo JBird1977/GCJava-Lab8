@@ -67,7 +67,6 @@ public class Lab8 {
        int input;
         try {
             input = scan.nextInt() - 1;
-             System.out.println(input);
              checkInput = name[input];  //test to see if user entered valid choice
          
         }  catch (ArrayIndexOutOfBoundsException error) {
